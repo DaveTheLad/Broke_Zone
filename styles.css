@@ -49,6 +49,11 @@ body::before {
     text-align: center;
     background-color: #000000;
     color: #00ff00;
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
 }
 
 .box a {
@@ -62,4 +67,9 @@ body::before {
     margin-top: 20px;
     color: #00ff00;
     background-color: #000000;
+    transition: transform 0.3s ease;
+}
+
+.text-container:hover {
+    transform: scale(1.1);
 }
